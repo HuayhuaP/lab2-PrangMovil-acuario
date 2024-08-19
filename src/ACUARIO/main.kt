@@ -18,10 +18,13 @@ fun main() {
 
 
 fun crearPeces() {
-    val tiburón = Tiburón()
+    val tiburon = Tiburon()
     val pezPayaso = PezPayaso()
 
-    println("El color del Tiburón es: ${tiburón.color}")
-    println("El color del Pez Payaso es: ${pezPayaso.color}")
+    println("El color del tiburón es: ${tiburon.color}")
+    tiburon.comer()
+
+    println("El color del pez payaso es: ${pezPayaso.color}")
+    pezPayaso.comer()
 }
 
